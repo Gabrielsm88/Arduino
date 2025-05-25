@@ -9,9 +9,9 @@ void loop()
   while(!Serial.available());
   int n = Serial.parseInt();
   
-  String nomes[5];
-  int idades[5];
-  float alturas[5];
+  String nomes[n];
+  int idades[n];
+  float alturas[n];
   
   for(int i=0; i<n ; i++){
   Serial.println("Informe o nome da " + String(i+1) + " pessoa");
