@@ -10,7 +10,7 @@ void setup()
 void loop()
 {
   digitalWrite(13, HIGH);
-  delay(2000); // espera de 3 segundos
+  delay(2000); // espera de 2 segundos
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   delay(1000);
