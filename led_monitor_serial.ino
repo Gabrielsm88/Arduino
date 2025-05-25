@@ -1,6 +1,6 @@
 void setup ()
 {
- Serial.begin(9600); // inicia a municacao serial com velocidade de 9600
+ Serial.begin(9600); // inicia a comunicacao serial com velocidade de 9600
  pinMode(13,OUTPUT); // define o pino 12 do arduino para o led como saida
  Serial.println("Deseja ligar o Led?"); // escreve mensagem no monitor serial
  Serial.println("Digite 1 para ligar ou 2 para desligar o led"); // escreve mensagem no monitor serial
